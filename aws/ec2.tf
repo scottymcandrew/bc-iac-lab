@@ -21,11 +21,11 @@ EOF
   tags = merge({
     Name = "${local.resource_prefix.value}-ec2"
     }, {
-    git_commit           = "4608512ed820e97aa06a17cbe21fadefd6db6cf0"
+    git_commit           = "e9b40351d258d6142a72d23d41430271c5b2aaad"
     git_file             = "aws/ec2.tf"
-    git_last_modified_at = "2022-01-13 10:22:53"
-    git_last_modified_by = "smcandrew@Scotts-MacBook-Pro.local"
-    git_modifiers        = "smcandrew"
+    git_last_modified_at = "2022-02-10 12:57:05"
+    git_last_modified_by = "30434343+scottymcandrew@users.noreply.github.com"
+    git_modifiers        = "30434343+scottymcandrew/smcandrew"
     git_org              = "scottymcandrew"
     git_repo             = "bc-iac-lab"
     yor_trace            = "347af3cd-4f70-4632-aca3-4d5e30ffc0b6"
