@@ -16,7 +16,7 @@ jobs:
       id: Bridgecrew
       uses: bridgecrewio/bridgecrew-action@master
       with:
-        api-key: ${{ secrets.BC_API_KEY }}
+        # api-key: ${{ secrets.BC_API_KEY }}
         directory: aws/
     - name: Expose report
       uses: actions/upload-artifact@v2
